@@ -184,20 +184,39 @@ footer {
     height:40px;  
 }
 
+@media screen and (max-width: 980px){
+    body{
+        background-image: url("../assests/images/pow-star.png");
+    }
+
+    .wrapper{
+        width:100%;
+        height: auto;
+        float: left;
+    }
+
+  
+}
+
 @media screen and (max-width: 768px){
+    body{
+        background-image: url("../assests/images/mirrored_squares.png");
+    }
+
+    header{
+        width: 100%;
+        display: block;
+    }
+
+    
+
+}
+
+@media screen and (max-width: 640px){
     body{
         background-image: url("../assests/images/darkness.jpg");
     }
 
-    .wrapper{
-        width: 100%;
-        padding: auto, 10px;
-        
-
-    }
-
-    .nav li{
-        display: block;
-    }
+    
 
 }
