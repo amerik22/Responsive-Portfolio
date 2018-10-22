@@ -59,7 +59,7 @@ ul{
 }
 
 .wrapper{
-    margin: 30px 250px;
+    margin: 30px 250px; 
     max-width: 960px;
     width:100%; 
     height: auto;
@@ -184,32 +184,95 @@ footer {
     height:40px;  
 }
 
-@media screen and (max-width: 980px){
+@media screen and (max-width: 1220px){
     body{
         background-image: url("../assests/images/pow-star.png");
     }
 
     .wrapper{
-        width:100%;
-        height: auto;
-        float: left;
+        width: 670px;
+        margin: 10px 90px;
+        padding-bottom: 20px;
     }
 
+    ul {
+        padding-top:10px;
+    }
+
+    h1{
+        margin: 0px 0px 0px 20px;
+    }
+    
+    .title-1{
+        top: 330px;
+        left: 101px;
+      }
+      
+      .title-2{
+          top: 330px;
+          left: 335px; 
+      }
+      
+      .title-3{
+          top: 574px;
+          left: 101px;
+      }
+      
+      .title-4{
+          top: 574px;
+          left: 335px;
+      }
+      
+      .title-5{
+          top: 818px;
+          left: 101px;
+      }
+    
   
 }
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 778px){
     body{
         background-image: url("../assests/images/mirrored_squares.png");
-    }
-
-    header{
-        width: 100%;
-        display: block;
-    }
-
     
+    }
 
+
+    .wrapper{
+        width: 600px;
+        margin: 10px 20px;
+    
+    }
+
+   h1{
+       margin: 0 0 0 20px;
+   }
+
+   ul {
+       padding-top: 15px;
+   }
+
+   .title-1{
+    left: 31px;
+  }
+  
+  .title-2{
+      left: 265px; 
+  }
+  
+  .title-3{
+      left: 31px;
+  }
+  
+  .title-4{
+      left: 265px;
+  }
+  
+  .title-5{
+      left: 31px;
+  }
+
+  
 }
 
 @media screen and (max-width: 640px){
@@ -217,6 +280,46 @@ footer {
         background-image: url("../assests/images/darkness.jpg");
     }
 
+    .wrapper{
+        width: 500px;
+        margin-top: 60px;
+    }
+
+    h1{
+        width: 100%;
+        margin: 0px;
+        text-align: center;
+    }
+
+    ul{
+        background-color: #ffffff;
+    }
+    
+    .title-1{
+        top: 380px;
+       
+      }
+      
+      .title-2{
+          top: 380px;
+           
+      }
+      
+      .title-3{
+          top: 625px;
+          
+      }
+      
+      .title-4{
+          top: 625px;
+          
+      }
+      
+      .title-5{
+          top: 868px;
+         
+      }
+    
     
 
 }
